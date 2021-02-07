@@ -1,2 +1,2 @@
-# jewelryMini
-jewelryMini Demp
+### jewelryMini
+- jewelryMini Demo
