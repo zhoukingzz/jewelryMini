@@ -8,13 +8,13 @@ Page({
    */
   data: {
     imgList: [
-      '/image/ad1.jpg',
-      '/image/ad2.jpg',
-      '/image/ad3.jpg',
-      '/image/ad4.jpg',
-      '/image/ad5.jpg',
-      '/image/ad6.jpg',
-      '/image/ad7.jpg'
+      'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad1.jpg',
+      'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad2.jpg',
+      'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad3.jpg',
+      'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad4.jpg',
+      'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad5.jpg',
+      'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad6.jpg',
+      'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad7.jpg',
     ],
     navList: [{
         icon: '/image/nav-icon/bangdan.png',
@@ -48,12 +48,12 @@ Page({
     myRequest.getData().then(res => {
       console.log('res',res);
       res.data.guess.list = [
-        {coverMiddle:'/image/ad1.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
-        {coverMiddle:'/image/ad2.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
-        {coverMiddle:'/image/ad3.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
-        {coverMiddle:'/image/ad3.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
-        {coverMiddle:'/image/ad3.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
-        {coverMiddle:'/image/ad3.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'}
+        {coverMiddle:'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad1.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
+        {coverMiddle:'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad2.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
+        {coverMiddle:'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad3.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
+        {coverMiddle:'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad4.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
+        {coverMiddle:'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad5.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'},
+        {coverMiddle:'https://public-image-1300433308.cos.ap-guangzhou.myqcloud.com/ad6.jpg',intro:'承接各种翡翠钻石珠宝定制，做你的首饰私人管家'}
       ]
       that.setData({
         showitem: true,
